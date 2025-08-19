@@ -1,0 +1,60 @@
+/*---Style Module for BMI Calculator---*/
+
+QWidget{
+    background: qlineargradient(x1:0,y1:0, x2:1,y2:1, stop:0 #440e0d0d, stop:1 #237171c2);
+    color: #03A6A1;              /* Winow text color */
+    font-family: "Bahnschrift"; /* Window text font */
+    font-size: 20px; /* Window font-size */
+}
+
+QLineEdit{
+    min-width:180px; /* Input box width */
+    min-height:40px; /* Input box height */
+    color:white; /* Inputs text color */
+    font-weight:normal;  /* Input text font-weight */
+    padding-left:10px;  /* User input aligned slightly away from the left border */
+}
+
+QLineEdit:focus {
+        border: 3px solid #1565C0; /* Set a border */
+        outline: none;  /* Remove the default focus outline */
+}
+
+QLabel {
+    border: none;        /* Removes the square aroudn QLabel */
+    background: none;    /* Removes any fill in background */
+    font-weight:bold;  /* Label text font-weight */
+}
+
+
+QRadioButton {
+    spacing: 12px; /* space between indicator and text */    
+    background:none;         
+    /*color: #fff; /* Text color */    
+}
+
+QRadioButton::indicator {
+    min-width: 18px; /* width of the indicator circle */
+    min-height: 18px; /* height of the indicator circle */
+    border-radius: 9px; /* Adjusting border radius of the indicatior circle */
+    border: 2px solid #ffffff; /* Border color of the indicatior circle */
+    background: white; /* Indicatot circle background color */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #1565C0;     /* Fill color circle when checked */
+    border: 2px solid #181818;     /* Border color when checked */
+}
+
+#cal_bmi,#clear_bmi {
+    min-width:200px; /* Push button width */
+    min-height:40px; /* Push button height */
+    margin-right:5px;
+    border-radius: 6px; /* Push button border radius */
+    background-color: #1E3E62; /* Push button color */
+}
+
+#cal_bmi:hover,#clear_bmi:hover {
+    background-color: #3e1565c0; /* Push button hover color */
+}
+
