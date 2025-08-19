@@ -77,22 +77,22 @@ A simple and interactive **Body Mass Index (BMI) Calculator** built with **Pytho
 
 ## Screenshots
   #### Main window
-   ![Main Window](assets/main_window.jpg)
+   ![Main Window](assets/main_window.JPG)
 
   #### Invalid Input (Characters Entered)
-   ![Invalid Input Entered](assets/invalid_input_entered.jpg)
+   ![Invalid Input Entered](assets/invalid_input_entered.JPG)
 
   ####  Invalid Input (Error After Calculation)
-  ![Invalid Input Error](assets/invalid_input_error.jpg)
+  ![Invalid Input Error](assets/invalid_input_error.JPG)
 
   ####  Negative Value (Negative Numbers Entered)
-  ![Negative Numbers Entered](assets/negative_value_entered.jpg)
+  ![Negative Numbers Entered](assets/negative_value_entered.JPG)
 
   ####  Negative Value (Error After Calculation)
-  ![Negative Numbers Entered](assets/negative_value_error.jpg)
+  ![Negative Numbers Entered](assets/negative_value_error.JPG)
 
   ####  BMI Result (Valid Inputs)
-  ![BMI Result](assets/bmi_result.jpg)
+  ![BMI Result](assets/bmi_result.JPG)
 
 
 ## Project Structure
